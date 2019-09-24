@@ -19,15 +19,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
 
-
-
     }
 
     public void handleExit(View view) {
         finish();
-
-        public void handleExit(View view) {
-            finish();
 
     }
 }
