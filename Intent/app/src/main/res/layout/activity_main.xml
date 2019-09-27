@@ -7,7 +7,6 @@
     android:layout_margin="10dp"
     android:gravity="center"
     android:orientation="vertical"
-
     tools:context=".MainActivity">
 
         <Button
@@ -20,7 +19,7 @@
 
         <Button
             android:id="@+id/button_implicit"
-            android:text="Implicit Intent"
+            android:text="@string/implicit_intent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="handleImplicitIntent"
@@ -39,14 +38,15 @@
             android:text="@string/parcelable"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="handleParcelable"
             />
 
         <Button
             android:id="@+id/button_exit"
-            android:onClick="handleExit"
             android:text="@string/exit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="handleExit"
             />
 
 </LinearLayout>
